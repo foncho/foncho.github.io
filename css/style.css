@@ -374,16 +374,6 @@ section.team.foncho {
 	background-size: auto 100% !important;
 }
 
-section.team.rayco {
-	background: transparent url('../images/rayco-palido.jpg') no-repeat left center !important;
-	background-size: auto 100% !important;
-}
-
-section.team.yeray {
-	background: transparent url('../images/yeray-palido.jpg') no-repeat right center !important;
-	background-size: auto 100% !important;
-}
-
 section.work .content {
 	margin-left: -15px;
 	margin-right: -15px;
@@ -916,45 +906,4 @@ div#contactMap {
 
 .portfolio .info .client {
 	color: #AAAAAA;
-}
-
-.overlay {
-	border-radius: 10px !important;
-	-moz-border-radius: 10px !important;
-	-webkit-border-radius: 10px !important;
-	-o-boder-radius: 10px !important;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0%;
-	left: 0;
-	opacity: 1;
-	z-index: 10;
-}
-
-.overlay.hidden {
-	-webkit-transition: all 0.25s ease-in-out 0s;
-	transition: all 0.25s ease-in-out 0s;
-	top: -100%;
-	opacity: 0;
-}
-
-.overlay.design {
-	background: #CE561B url('../images/design2.svg') no-repeat center;
-	background-size: 60%;
-}
-
-.overlay.website {
-	background: #F37127 url('../images/website2.svg') no-repeat center;
-	background-size: 60%;
-}
-
-.overlay.webapp {
-	background: #FBB040 url('../images/webapp2.svg') no-repeat center;
-	background-size: 60%;
-}
-
-.overlay.lab {
-	background: #E3A612 url('../images/lab2.svg') no-repeat center;
-	background-size: 60%;
 }
