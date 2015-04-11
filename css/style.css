@@ -82,7 +82,7 @@ section:nth-child(2n) {
 	background: #EEEEEE;
 }
 
-section:nth-child(2n) h1 {
+section:nth-child(2n + 1) h1 {
 	text-align: right !important;
 }
 
@@ -374,14 +374,8 @@ section.team.foncho {
 	background-size: auto 100% !important;
 }
 
-section.team.rayco {
-	background: transparent url('../images/rayco-palido.jpg') no-repeat left center !important;
-	background-size: auto 100% !important;
-}
-
-section.team.yeray {
-	background: transparent url('../images/yeray-palido.jpg') no-repeat right center !important;
-	background-size: auto 100% !important;
+section.welcome.team.foncho {
+	margin-top: 45px;
 }
 
 section.work .content {
